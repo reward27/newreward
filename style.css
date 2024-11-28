@@ -1,0 +1,238 @@
+* {
+  /* color: white; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* background-attachment:scroll; */
+  }
+  
+  body {
+    background-image:url(./240_F_257654425_w1zitRQLsHsrcsmvsJHbEOKLNProCQkz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .form-container {
+      padding: 10px;
+    }
+  
+    form h2 {
+      font-size: 18px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 13px;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .signup-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-form p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .signup-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px; /* Added padding for smaller screens */
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-form input,
+  .signup-form button {
+    width: 100%; /* Ensure inputs and buttons are responsive */
+  }
+  
+  @media (max-width: 768px) {
+    .signup-container {
+      padding: 15px;
+    }
+  
+    .signup-form h2 {
+      font-size: 20px; /* Adjust heading size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      width: 50px; /* Reduce logo size */
+    }
+  
+    .signup-form button {
+      font-size: 14px; /* Adjust button text size */
+    }
+  }
+  
